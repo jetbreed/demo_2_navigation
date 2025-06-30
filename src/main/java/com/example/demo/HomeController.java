@@ -38,4 +38,10 @@ public class HomeController {
         return "resolve-day-of-week";
     }   
     
+    @GetMapping("/olingo")
+    public String page5() {
+        // Redirect the root URL to the JSF page jetinfo.xhtml
+        return "calendar";
+    }   
+    
 }
